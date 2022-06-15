@@ -30,7 +30,7 @@ for i in range (9):
     count = i + 1
     print('Round:' + str(count) )
 
-    # Constraint: Cannot fill in the same field
+    # Constraint: cannot fill in the same place
     if theBoard[move] == ' ':
         theBoard[move] = turn
     else:

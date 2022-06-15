@@ -78,7 +78,7 @@ for i in range (9):
         print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congradulations!')
         break
 
-    # Change the plaer - either 'X' or 'O'
+    # Switch the plaer - either 'X' or 'O'
     if turn == 'X':
         turn = 'O'
     else:

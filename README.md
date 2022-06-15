@@ -2,7 +2,7 @@
 
 This exercise is inspired by the book "Automate the Boring Stuff with Python." 
 
-I made the following updates to the original example:
+I made the following changes to the original example:
   1. Changed to keypad as a reference for a three-by-three grid   
   2. Added constraint: cannot fill in the same place and won't switch turns 
   3. Added the victory/tie conditions  

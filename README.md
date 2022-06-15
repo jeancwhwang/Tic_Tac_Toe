@@ -13,3 +13,5 @@ Learning Objectives:
   1. Create a dictionary
   2. Define a function
   3. Use if/elif and for loop
+
+![https://github.com/jeancwhwang/Tic_Tac_Toe/blob/main/tic_tac_toe_GIF.gif]

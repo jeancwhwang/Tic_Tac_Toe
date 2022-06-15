@@ -1,5 +1,5 @@
 print('Let\'s play Tic-Tac-Toe with your friend!')
-print('Use your computer keypad as a refence for a three-by-three grid as below.')
+print('Use your computer keypad as a reference for a three-by-three grid as below.')
 print()
 print('7' + '|' + '8' + '|' + '9')
 print('-+-+-')

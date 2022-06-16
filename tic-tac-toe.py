@@ -8,6 +8,7 @@ print('-+-+-')
 print('1' + '|' + '2' + '|' + '3')
 print()
 print('Please enter a number from 1-9.')
+
 # Create the board-as-a-dictionary in a variable
 theBoard = {'7': ' ', '8': ' ', '9':' ',
             '4': ' ', '5': ' ', '6': ' ',

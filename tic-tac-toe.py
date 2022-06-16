@@ -21,7 +21,7 @@ def printBoard(board):
     print('-+-+-')
     print(board['1'] + '|' + board['2'] + '|' + board['3'])
 
-# Tic-tac-toe game
+# Tic-Tac-Toe game
 turn = 'X'
 for i in range (9):
     printBoard(theBoard)
@@ -41,49 +41,49 @@ for i in range (9):
     # Victory conditions
     if theBoard['7'] == theBoard['8'] == theBoard['9'] !=' ': # Top row connected
         printBoard(theBoard)
-        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congradulations!')
+        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congratulations!')
         break
 
     elif theBoard['4'] == theBoard['5'] == theBoard['6'] !=' ': # Middle row connected
         printBoard(theBoard)
-        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congradulations!')
+        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congratulations!')
         break
 
     elif theBoard['1'] == theBoard['2'] == theBoard['3'] != ' ': # Bottom row connected
         printBoard(theBoard)
-        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congradulations!')
+        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congratulations!')
         break
 
     elif theBoard['7'] == theBoard['4'] == theBoard['1'] != ' ': # Left column connected
         printBoard(theBoard)
-        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congradulations!')
+        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congratulations!')
         break
     elif theBoard['8'] == theBoard['5'] == theBoard['2'] != ' ': # Middle column connected
         printBoard(theBoard)
-        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congradulations!')
+        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congratulations!')
         break
 
     elif theBoard['9'] == theBoard['6'] == theBoard['3'] != ' ': # Right column connected
         printBoard(theBoard)
-        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congradulations!')
+        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congratulations!')
         break
 
     elif theBoard['7'] == theBoard['5'] == theBoard['3'] != ' ': # Left diagonal line connected
         printBoard(theBoard)
-        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congradulations!')
+        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congratulations!')
         break
 
     elif theBoard['9'] == theBoard['5'] == theBoard['1'] != ' ': # Right diagonal line connected
         printBoard(theBoard)
-        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congradulations!')
+        print('Game Over!' + ' ' +'"'+ turn +'"' + ' ' + 'Won! Congratulations!')
         break
 
-    # Switch the plaer - either 'X' or 'O'
+    # Switch the player - either 'X' or 'O'
     if turn == 'X':
         turn = 'O'
     else:
         turn = 'X'
 
     # Show if there is no winner
-    if i == 9:
+    if i == 8:
         print('It is a tie! Good game!')
